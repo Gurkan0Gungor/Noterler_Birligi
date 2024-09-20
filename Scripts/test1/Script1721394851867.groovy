@@ -26,6 +26,7 @@ System.out.println(count)
 for (i=1;i<=count;i++) {
 	
 	WebUI.callTestCase(findTestCase('test2'), [('Value') : findTestData('Test Data').getValue(1, i)], FailureHandling.STOP_ON_FAILURE)
+	WebUI.acceptAlert();
 }
 
 WebUI.openBrowser("google.com")
