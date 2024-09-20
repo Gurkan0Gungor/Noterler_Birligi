@@ -14,22 +14,19 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
+
+import org.junit.Assert
+import org.junit.Before
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+int count= findTestData('Test Data').getRowNumbers()
+System.out.println(count)
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+for (i=1;i<=count;i++) {
+	
+	WebUI.callTestCase(findTestCase('test2'), [('Value') : findTestData('Test Data').getValue(1, i)], FailureHandling.STOP_ON_FAILURE)
+}
 
-
-WebUI.click(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/a_Make Appointment'))
-
-
-WebUI.click(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.refresh().verifyElementText(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
-    'Login failed! Please ensure the username and password are valid.',FailureHandling.OPTIONAL)
-
-
-WebUI.closeBrowser()
+WebUI.openBrowser("google.com")
 

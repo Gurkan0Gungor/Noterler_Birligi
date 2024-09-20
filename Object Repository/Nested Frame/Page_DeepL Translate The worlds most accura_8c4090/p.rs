@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p</name>
+   <tag></tag>
+   <elementGuidId>a10e36d4-9c15-496f-8b77-7acb70d975ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='textareasContainer']/div/section/div/div/d-textarea/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div > p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>af128e5f-8271-4bb4-9a43-c2c1982c3b5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>_d-id</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>7677ef4b-0ca3-4707-ab47-00e8ded28b1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;textareasContainer&quot;)/div[@class=&quot;rounded-es-inherit relative min-h-[240px] min-w-0 md:min-h-[clamp(250px,50vh,557px)] mobile:min-h-0 mobile:portrait:max-h-[calc((100vh-61px-1px-64px)/2)]&quot;]/section[@class=&quot;h-full rounded-inherit transition-colors border relative mb-0 mobile:!border-transparent mobile:min-h-0 SourceTranslatorArea-module--focusBorder--2403c border-blue-next-500&quot;]/div[@class=&quot;rounded-inherit mobile:min-h-0 flex h-full flex-col&quot;]/div[@class=&quot;relative flex-1 rounded-inherit mobile:min-h-0&quot;]/d-textarea[@class=&quot;focus-visible-disabled-container bg-white text-neutral-next-800 dark:bg-neutral-next-800 dark:text-white DTextAreaInput-module--textarea--0624c min-h-0 w-full h-full overflow-auto rounded-inherit [&amp;>div]:py-6 [&amp;>div]:pl-6 [&amp;>div]:pr-14 [&amp;>div]:min-w-0 [html[dir=&quot;rtl&quot;]_&amp;>div]:pr-6 [html[dir=&quot;rtl&quot;]_&amp;>div]:pl-14 mobile:[&amp;>div]:py-5 mobile:[&amp;>div]:pl-5 mobile:[&amp;>div]:pr-[52px] mobile:min-h-[90px] [html[dir=&quot;rtl&quot;][data-mobile=&quot;true&quot;]_&amp;>div]:pr-5 [html[dir=&quot;rtl&quot;][data-mobile=&quot;true&quot;]_&amp;>div]:pl-[52px] mobile:leading-7 mobile:[&amp;>div]:overflow-y-scroll app:overflow-auto useFontSizeClasses-module--shortText--36cb0&quot;]/div[1]/p[1]</value>
+      <webElementGuid>51154202-6481-44e4-84fe-59e0eabcc420</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='textareasContainer']/div/section/div/div/d-textarea/div/p</value>
+      <webElementGuid>df2a6f97-a299-4f38-93ab-6f40a7aa877d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/p</value>
+      <webElementGuid>7b3c34ff-24a1-4f0d-b783-cf21d909be37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

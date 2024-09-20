@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Nested Frames</name>
+   <tag></tag>
+   <elementGuidId>228e5665-8671-44e8-94a0-8e2389538ce5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='framesWrapper']/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.text-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>3ccb584b-7331-4e7e-8354-30740048376b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center</value>
+      <webElementGuid>37c45012-b1be-46fd-ba29-de73f709b175</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nested Frames</value>
+      <webElementGuid>6d5c277c-18a4-4c5a-ac9d-b346b78ba66d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;framesWrapper&quot;)/h1[@class=&quot;text-center&quot;]</value>
+      <webElementGuid>024a0372-cd0b-4010-b3cb-8280e25cf440</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='framesWrapper']/h1</value>
+      <webElementGuid>d7ed7b41-f0d8-4a8b-8076-1c553b20fd5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>33d73439-7f39-40fd-92a4-782aaebe0784</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Nested Frames' or . = 'Nested Frames')]</value>
+      <webElementGuid>1ef3909f-26d5-42a8-b532-437938edd225</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

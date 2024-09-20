@@ -19,17 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl('https://selenium08.blogspot.com/2019/11/selenium-iframe.html')
 
+WebUI.setText(findTestObject('Object Repository/Frame/Page_Selenium IFrame/input_s'), 'deneme')
 
-WebUI.click(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/Frame/Page_Selenium IFrame/button_Search'))
 
-
-WebUI.click(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.refresh().verifyElementText(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
-    'Login failed! Please ensure the username and password are valid.',FailureHandling.OPTIONAL)
-
+WebUI.verifyElementText(findTestObject('Object Repository/Frame/Page_Selenium IFrame/span_search results'), 'search results')
 
 WebUI.closeBrowser()
 
+WebUI.verifyElementText(findTestObject, null)

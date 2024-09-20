@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iframe</name>
+   <tag></tag>
+   <elementGuidId>c0a21e67-7a6f-40c2-adef-fed38510bf86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//iframe</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>iframe</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>iframe</value>
+      <webElementGuid>9b4508f8-45af-420f-8f03-50ec7d0d8b96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>srcdoc</name>
+      <type>Main</type>
+      <value>&lt;p>Child Iframe&lt;/p></value>
+      <webElementGuid>2f4df81a-603f-40d4-b05c-97d314081c7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/iframe[1]</value>
+      <webElementGuid>cf7e7b4b-c031-4714-9014-a9f033f0904a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Nested Frame/Page_DEMOQA/iframeframe1</value>
+      <webElementGuid>257cb8f7-700e-4cac-9c7e-f5c767553ad4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//iframe</value>
+      <webElementGuid>047b7b8f-1e56-4571-b8b8-76607b69ba13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

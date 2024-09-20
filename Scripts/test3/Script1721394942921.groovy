@@ -3,6 +3,9 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
+import java.awt.Desktop.Action
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -15,21 +18,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.Keys
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeDriver as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser("google.com")
+WebUI.takeFullPageScreenshot("C:\\Users\\Virgosol\\Desktop\\Rar collection\\aa.png",findTestObject(""))
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-
-
-WebUI.click(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/a_Make Appointment'))
-
-
-WebUI.click(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.refresh().verifyElementText(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
-    'Login failed! Please ensure the username and password are valid.',FailureHandling.OPTIONAL)
-
-
-WebUI.closeBrowser()
 

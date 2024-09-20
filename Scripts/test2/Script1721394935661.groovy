@@ -17,19 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-
-
-WebUI.click(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/a_Make Appointment'))
-
-
-WebUI.click(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.refresh().verifyElementText(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
-    'Login failed! Please ensure the username and password are valid.',FailureHandling.OPTIONAL)
-
-
-WebUI.closeBrowser()
+WebUI.openBrowser(Value)
 

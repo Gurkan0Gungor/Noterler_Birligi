@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_DeepL Translate The worlds most accurate_31dca7</name>
+   <tag></tag>
+   <elementGuidId>57b442df-0cf0-4727-836d-22cfd2e499b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.LC20lb.MBeuO.DKV0Md</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>58f011b5-4e38-4e21-afbc-7688e7981173</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>LC20lb MBeuO DKV0Md</value>
+      <webElementGuid>6398ba0d-81fa-416e-bcab-46d16a7607ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DeepL Translate: The world's most accurate translator</value>
+      <webElementGuid>adca5efb-466a-4177-803a-a182a3a7d2e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rso&quot;)/div[@class=&quot;hlcw0c&quot;]/div[@class=&quot;MjjYud&quot;]/div[@class=&quot;g&quot;]/div[@class=&quot;BYM4Nd&quot;]/div[@class=&quot;eKjLze&quot;]/div[@class=&quot;g&quot;]/div[1]/div[@class=&quot;tF2Cxc&quot;]/div[@class=&quot;yuRUbf&quot;]/div[1]/span[1]/a[1]/h3[@class=&quot;LC20lb MBeuO DKV0Md&quot;]</value>
+      <webElementGuid>0fa91a9e-7389-4b9e-8e2e-31e7c7b3f853</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/h3</value>
+      <webElementGuid>bf58a725-88b6-446d-9011-2985c91e016a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>1d78cdc2-c3e3-4c50-805b-67685aeb31de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = concat(&quot;DeepL Translate: The world&quot; , &quot;'&quot; , &quot;s most accurate translator&quot;) or . = concat(&quot;DeepL Translate: The world&quot; , &quot;'&quot; , &quot;s most accurate translator&quot;))]</value>
+      <webElementGuid>d0887f2b-13aa-4b81-a91d-33285ba354c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

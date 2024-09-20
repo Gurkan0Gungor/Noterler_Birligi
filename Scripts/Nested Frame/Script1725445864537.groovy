@@ -19,17 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl('https://demoqa.com/nestedframes')
 
+WebUI.verifyElementText(findTestObject('Object Repository/Nested Frame/Page_DEMOQA/p_Child Iframe'), 'Child Iframe')
 
-WebUI.click(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/a_Make Appointment'))
-
-
-WebUI.click(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.refresh().verifyElementText(findTestObject('Object Repository/Katalon_Web/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
-    'Login failed! Please ensure the username and password are valid.',FailureHandling.OPTIONAL)
-
+WebUI.verifyElementText(findTestObject('Object Repository/Nested Frame/Page_DEMOQA/h1_Nested Frames'), 'Nested Frames')
 
 WebUI.closeBrowser()
-

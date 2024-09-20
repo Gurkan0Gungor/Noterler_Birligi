@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_search results</name>
+   <tag></tag>
+   <elementGuidId>12c0269b-ae20-4f30-a76d-9046db1b54d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='td-outer-wrap']/div[2]/div/div[2]/div/div/div/h1/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a6f7c56d-3d98-48e6-8845-106732252f9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> search results</value>
+      <webElementGuid>5a39c404-a221-4322-980f-438e057b7615</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;td-outer-wrap&quot;)/div[@class=&quot;td-main-content-wrap&quot;]/div[@class=&quot;td-container&quot;]/div[@class=&quot;td-pb-row&quot;]/div[@class=&quot;td-pb-span8 td-main-content&quot;]/div[@class=&quot;td-ss-main-content&quot;]/div[@class=&quot;td-page-header&quot;]/h1[@class=&quot;entry-title td-page-title&quot;]/span[2]</value>
+      <webElementGuid>ef79e7bf-d942-4095-85ae-b97972e6d1c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Frame/Page_Selenium IFrame/iframe_iframe_a</value>
+      <webElementGuid>c239406b-18d6-4e1f-9cec-265f7c22398d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='td-outer-wrap']/div[2]/div/div[2]/div/div/div/h1/span[2]</value>
+      <webElementGuid>150f0c70-34da-4ace-93dc-56876089b6ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]</value>
+      <webElementGuid>513643b8-b2c7-453c-99ce-dcba4d676b27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' search results' or . = ' search results')]</value>
+      <webElementGuid>8b5a88ee-b425-4c76-bb6c-d7efd09811c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
